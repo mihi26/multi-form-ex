@@ -6,7 +6,6 @@
       :listCompany="listCompany"
       @removeCompany="removeCompany"
     />
-    change
   </div>
   <div v-if="companyError.status" class="error-label">
     {{ companyError.text }}
