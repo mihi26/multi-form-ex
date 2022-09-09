@@ -170,7 +170,7 @@ export default {
             status: true,
             text: "Không được chọn thời gian quá hiện tại",
           };
-        }
+        } else this.error.dob.status = false;
       }
     },
     checkUserDesc() {
